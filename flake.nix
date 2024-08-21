@@ -18,22 +18,22 @@
           text =
             let
               binPath = pkgs.lib.makeBinPath [
-                #pkgs.moreutils
-                #pkgs.coreutils
-                #pkgs.mpv
-                #pkgs.timg
-                #pkgs.jq
-                #pkgs.bat
-                #pkgs.eza
+                pkgs.moreutils
+                pkgs.coreutils
+                pkgs.mpv
+                pkgs.timg
+                pkgs.jq
+                pkgs.bat
+                pkgs.eza
                 # TODO: Add awrit, euporie
-                #pkgs.nvimpager
-                #pkgs.python312Packages.pyexcel
-                # pkgs.libreoffice
-                #pkgs.fontforge
-                #pkgs.gnupg
-                #pkgs.atool
-                # pkgs.transmission_4
-                #pkgs.exiftool
+                pkgs.nvimpager
+                pkgs.python312Packages.pyexcel
+                pkgs.libreoffice
+                pkgs.fontforge
+                pkgs.gnupg
+                pkgs.atool
+                pkgs.transmission_4
+                pkgs.exiftool
               ];
             in ''
               #!${pkgs.runtimeShell}
