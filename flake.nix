@@ -32,7 +32,7 @@
                 pkgs.fontforge
                 pkgs.gnupg
                 pkgs.atool
-                pkgs.transmission_4
+                # pkgs.transmission_4
                 pkgs.exiftool
               ];
             in ''
