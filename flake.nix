@@ -11,7 +11,7 @@
         pkgs = import nixpkgs { inherit system; };
       in
       {
-        packages.ca = pkgs.writeTextFile {
+        packages.default = pkgs.writeTextFile {
           name = "ca";
           executable = true;
           destination = "/bin/ca";
